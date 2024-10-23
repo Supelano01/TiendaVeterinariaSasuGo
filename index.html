@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">SASU'GO</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu"><img src="images-20240908T000737Z-001/images/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Servicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images-20240908T000737Z-001/images/car.svg" id="img-cariito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header-content container">
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>APETIL</h1>
+                                <div class="prices">
+                                    <p class="price-2">$$$$$</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="images-20240908T000737Z-001/images/bg1.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>KIT Gatuno</h1>
+                                <div class="prices">
+                                    <p class="price-2">$$$$</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="images-20240908T000737Z-001/images/bg2.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="header-info">
+                            <div class="header-txt">
+                                <h1>Collar perro mediano perlas</h1>
+                                <div class="prices">
+                                    <p class="price-2">$$$$$</p>
+                                </div>
+                                <a href="#" class="btn-1">Informacion</a>
+                            </div>
+                            <div class="header-img">
+                                <img src="images-20240908T000737Z-001/images/bg3.jpeg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </header>
+
+    <hr>
+
+    <section class="promos container lista" id="lista-1">
+        <h2>Promociones</h2>
+        <div class="categories">
+
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>DreamPet</h3>
+                    <div class="prices">
+                        <p class="precio">$$$$$</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="images-20240908T000737Z-001/images/ph1.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Correa para perros</h3>
+                    <div class="prices">
+                        <p class="precio">$$$$$</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="images-20240908T000737Z-001/images/ph2.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Plato de comida doble</h3>
+                    <div class="prices">
+                        <p class="precio">$$$$$</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="images-20240908T000737Z-001/images/ph3.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Dog Chow</h3>
+                    <div class="prices">
+                        <p class="precio">$$$$$$</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="images-20240908T000737Z-001/images/ph4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <hr>
+
+    <section class="products container lista" id="lista-2">
+
+        <h2>Nuevos Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+
+                    <div class="product">
+                        <img src="images-20240908T000737Z-001/images/ph5.png" alt="">
+                        <div class="product-txt">
+                            <h3>Buzo raza mediana</h3>
+                            <p>calidad premium</p>
+                            <p class="precio">$$$$$$</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images-20240908T000737Z-001/images/ph6.png" alt="">
+                        <div class="product-txt">
+                            <h3>DogPuf</h3>
+                            <p>calidad premium</p>
+                            <p class="precio">$$$$$$</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images-20240908T000737Z-001/images/ph7.png" alt="">
+                        <div class="product-txt">
+                            <h3>Juguete Catnip Gato</h3>
+                            <p>calidad premium</p>
+                            <p class="precio">$$$$$$$</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <footer class="footer container">
+
+        <div class="link">
+            <h3>Contactos</h3>
+            <ul>
+                <li><a href="#">@SASU'GO</a></li>
+                <li><a href="#">*SASU'GO*</a></li>
+                <li><a href="#">xxxxxxxxxx</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
